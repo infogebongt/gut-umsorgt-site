@@ -433,3 +433,11 @@ table.compare-table td a:hover { text-decoration: underline; }
 .related-links{padding:2rem 0}
 .related-links h2{margin-bottom:.6rem}
 .related-links p a{display:inline-block;padding:.7rem 1rem;margin:.3rem .4rem .3rem 0;border:2px solid #1f7a6d;border-radius:8px;text-decoration:none}
+
+/* Symbolbilder (KI-generiert, markenlos) */
+.symbolbilder { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; margin: 1.25rem 0 0.5rem; }
+.symbolbilder figure { margin: 0; }
+.symbolbilder img { width: 100%; height: auto; border-radius: 12px; display: block; }
+.symbolbilder figcaption { font-size: 0.9rem; color: var(--text-muted); margin-top: 0.4rem; }
+.symbolbild-hinweis { font-size: 0.85rem; color: var(--text-muted); margin: 0.25rem 0 1.25rem; }
+@media (max-width: 700px) { .symbolbilder { grid-template-columns: 1fr; } }
